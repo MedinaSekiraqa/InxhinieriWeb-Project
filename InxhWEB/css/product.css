@@ -1,0 +1,132 @@
+html, body {
+    margin:0px;
+    height:100%;
+    width: 100%;
+  }
+#newRelease{
+    display: flex;
+    width: 100%;
+    min-height: 500px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid black;
+}
+
+#newReleaseItem1{
+    display: flex;
+    width: 25%;
+    min-height:500px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#newReleaseItem1 h2 {
+    font-size: 43px;
+    color: black;
+}
+
+
+
+#newReleaseItem2{
+    display: flex;
+    min-width: 65%;
+    min-height: 500px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#newReleaseItem2 img {
+    width: 600px;
+    height: 290px;
+}
+
+#article{
+    display: flex;
+    width:99%;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#trending{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    flex-direction: column;
+    background-color: rgb(155, 127, 127);
+    
+}
+
+
+
+.permbajtja{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-left: 7%;
+    flex-wrap: wrap;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 24%;
+    min-height: 200px;
+    min-width: 250px;
+   
+   
+}
+
+
+.item h1{
+    margin-top: 10px;
+    margin-bottom: 1px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+.item p{
+    margin-top:-15px;
+    margin-left:5px;
+    font-size: 15px;
+    font-weight: 100;
+    color: rgb(59, 59, 59);
+}
+
+
+.item img {
+    height: 250px;
+    width: 250px;
+}
+
+@media only screen and (max-width:650px){
+    #newRelease{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+ 
+    #newReleaseItem2 img{
+        max-width: 350px;
+    }
+    #item{
+        text-align: center;
+    }
+    #item img {
+        height: 250px;
+    }
+    #item h1{
+        font-size: 22px;
+    }
+
+
+}

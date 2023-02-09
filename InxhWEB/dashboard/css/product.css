@@ -1,0 +1,29 @@
+.styled-table {
+    width: 40vw;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.styled-table thead tr {
+    background-color: #ae6e8b;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 15px 25px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+input[type=submit] {
+    padding: 10px 15px;
+  }
+
+
